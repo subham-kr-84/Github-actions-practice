@@ -3,15 +3,16 @@
 name: Hello 
 #on tells when the workflow should run
 on: 
-   workflow-dispatch:
+   workflow_dispatch:
 # jobs
 # should be inside the workflows
 jobs:
    say-hello:
       runs-on: ubuntu-latest
-   steps:
-      - name: say hello to everyone
-      run: echo "Hello Dosto"   
+   
+      steps:
+         - name: say hello to everyone
+         run: echo "Hello Dosto"   
 # steps
 # should be inside the jobs
 
