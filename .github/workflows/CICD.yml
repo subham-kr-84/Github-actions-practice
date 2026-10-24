@@ -1,3 +1,4 @@
+# For understanding the structure, how pipelines work.
 name: CICD
   
 on: 
